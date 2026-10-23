@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "test:bdd": "cucumber-js"
+  },
+  "name": "cucumber-serverest-crud",
+  "version": "1.0.0",
+  "description": "Um Teste de BDD com Cucumber, vamos separar os testes em três partes:",
+  "main": "cucumber.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horadoqa/cucumber-serverest-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/horadoqa/cucumber-serverest-crud/issues"
+  },
+  "homepage": "https://github.com/horadoqa/cucumber-serverest-crud#readme",
+  "dependencies": {
+    "axios": "^1.20.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@types/node": "^26.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
